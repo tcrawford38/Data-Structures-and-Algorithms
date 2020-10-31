@@ -6,8 +6,6 @@ import java.util.NoSuchElementException;
  *
  * @author Thomas Crawford
  * @version 1.0
- * @userid tcrawford38
- * @GTID 903398010
  */
 public class ArrayList<T> {
     /**
