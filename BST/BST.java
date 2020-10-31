@@ -1,4 +1,3 @@
-package homework04;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Collection;
@@ -11,8 +10,6 @@ import java.util.Queue;
  *
  * @author Thomas Crawford
  * @version 1.0
- * @userid YOUR USER ID HERE (i.e. tcrawford38)
- * @GTID YOUR GT ID HERE (i.e. 903398010)
  *
  * Collaborators: LIST ALL COLLABORATORS YOU WORKED WITH HERE
  *
