@@ -11,9 +11,6 @@ import java.util.Queue;
  * @author Thomas Crawford
  * @version 1.0
  *
- * Collaborators: LIST ALL COLLABORATORS YOU WORKED WITH HERE
- *
- * Resources: LIST ALL NON-COURSE RESOURCES YOU CONSULTED HERE
  */
 public class BST<T extends Comparable<? super T>> {
 
