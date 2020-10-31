@@ -1,4 +1,3 @@
-package homework03;
 
 import java.util.NoSuchElementException;
 
