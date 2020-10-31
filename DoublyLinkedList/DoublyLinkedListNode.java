@@ -1,11 +1,10 @@
-package homework02;
 
 /**
  * Node class used for implementing the DoublyLinkedList.
  *
  * DO NOT MODIFY THIS FILE!!
  *
- * @author CS 1332 TAs
+ * @author Thomas Crawford
  * @version 1.0
  */
 public class DoublyLinkedListNode<T> {
