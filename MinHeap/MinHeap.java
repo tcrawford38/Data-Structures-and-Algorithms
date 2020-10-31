@@ -1,4 +1,3 @@
-package homework05;
 import java.util.ArrayList;
 import java.util.NoSuchElementException;
 
@@ -7,8 +6,6 @@ import java.util.NoSuchElementException;
  *
  * @author Thomas Crawford
  * @version 1.0
- * @userid tcrawford38
- * @GTID 903398010
  */
 public class MinHeap<T extends Comparable<? super T>> {
 
