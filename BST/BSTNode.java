@@ -1,4 +1,3 @@
-package homework04;
 /**
  * Node class used for implementing the BST.
  *
