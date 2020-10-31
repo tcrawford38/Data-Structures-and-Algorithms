@@ -1,11 +1,10 @@
-package homework10;
 /**
  * Class to store a DisjointSetNode.  This class is used ONLY for the
  * DisjointSet class.
  *
  * DO NOT use this class for your implementation and DO NOT edit this class.
  *
- * @author CS 1332 TAs
+ * @author Thomas Crawford
  * @version 1.0
  */
 public class DisjointSetNode<T> {
