@@ -1,10 +1,9 @@
-package homework06;
 /**
  * Map entry class used for implementing the LinearProbingHashMap.
  *
  * DO NOT MODIFY THIS FILE!!
  *
- * @author CS 1332 TAs
+ * @author Thomas Crawford
  * @version 1.0
  */
 public class LinearProbingMapEntry<K, V> {
