@@ -1,4 +1,3 @@
-package homework07;
 /**
  * Node class used for implementing the AVL.
  *
