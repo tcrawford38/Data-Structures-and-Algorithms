@@ -1,11 +1,10 @@
-package homework10;
 /**
  * Class to store a vertex in a graph and an integer associated with it
  * representing the distance to this vertex from some other vertex
  *
  * DO NOT EDIT THIS CLASS!!!
  *
- * @author CS 1332 TAs
+ * @author Thomas Crawford
  * @version 1.0
  */
 public final class VertexDistance<T>
