@@ -1,4 +1,3 @@
-package homework09;
 import java.util.Comparator;
 
 /**
@@ -12,7 +11,7 @@ import java.util.Comparator;
  *
  * DO NOT MODIFY THIS FILE!!
  *
- * @author CS 1332 TAs
+ * @author Thomas Crawford
  * @version 1.0
  */
 public class CharacterComparator implements Comparator<Character> {
