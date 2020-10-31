@@ -1,4 +1,3 @@
-package homework03;
 /**
  * Node class used for implementing your linked data structures.
  *
