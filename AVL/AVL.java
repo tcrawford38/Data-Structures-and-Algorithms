@@ -1,34 +1,17 @@
-package homework07;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 import java.util.NoSuchElementException;
 
 /**
- * Your implementation of an AVL.
  *
  * @author Thomas Crawford
  * @version 1.0
- * @userid tcrawford38
- * @GTID 903398010
  *
- * Collaborators: LIST ALL COLLABORATORS YOU WORKED WITH HERE
- *
- * Resources: LIST ALL NON-COURSE RESOURCES YOU CONSULTED HERE
- */
 public class AVL<T extends Comparable<? super T>> {
 
-    // Do not add new instance variables or modify existing ones.
-    private AVLNode<T> root;
-    private int size;
 
-    /**
      * Constructs a new AVL.
-     *
-     * This constructor should initialize an empty AVL.
-     *
-     * Since instance variables are initialized to their default values, there
-     * is no need to do anything for this constructor.
      */
     public AVL() {
         // DO NOT IMPLEMENT THIS CONSTRUCTOR!
@@ -163,24 +146,6 @@ public class AVL<T extends Comparable<? super T>> {
      * Removes and returns the element from the tree matching the given
      * parameter.
      *
-     * There are 3 cases to consider:
-     * 1: The node containing the data is a leaf (no children). In this case,
-     * simply remove it.
-     * 2: The node containing the data has one child. In this case, simply
-     * replace it with its child.
-     * 3: The node containing the data has 2 children. Use the successor to
-     * replace the data, NOT predecessor. As a reminder, rotations can occur
-     * after removing the successor node.
-     *
-     * Remember to recalculate heights and balance factors while going back
-     * up the tree after removing the element, making sure to rebalance if
-     * necessary.
-     *
-     * Do not return the same data that was passed in. Return the data that
-     * was stored in the tree.
-     *
-     * Hint: Should you use value equality or reference equality?
-     *
      * @param data the data to remove
      * @return the data that was removed
      * @throws java.lang.IllegalArgumentException if the data is null
@@ -288,10 +253,6 @@ public class AVL<T extends Comparable<? super T>> {
     /**
      * Returns the element from the tree matching the given parameter.
      *
-     * Hint: Should you use value equality or reference equality?
-     *
-     * Do not return the same data that was passed in. Return the data that
-     * was stored in the tree.
      *
      * @param data the data to search for in the tree
      * @return the data in the tree equal to the parameter
@@ -331,8 +292,6 @@ public class AVL<T extends Comparable<? super T>> {
     /**
      * Returns whether or not data matching the given parameter is contained
      * within the tree.
-     *
-     * Hint: Should you use value equality or reference equality?
      *
      * @param data the data to search for in the tree.
      * @return true if the parameter is contained within the tree, false
@@ -426,29 +385,8 @@ public class AVL<T extends Comparable<? super T>> {
     }
 
     /**
-     * In your BST homework, you worked with the concept of the predecessor, the
-     * largest data that is smaller than the current data. However, you only
-     * saw it in the context of the 2-child remove case.
-     *
-     * This method should retrieve (but not remove) the predecessor of the data
-     * passed in. There are 2 cases to consider:
-     * 1: The left subtree is non-empty. In this case, the predecessor is the
-     * rightmost node of the left subtree.
-     * 2: The left subtree is empty. In this case, the predecessor is the lowest
-     * ancestor of the node containing data whose right child is also
-     * an ancestor of data.
-     *
-     * This should NOT be used in the remove method.
-     *
-     * Ex:
-     * Given the following AVL composed of Integers
-     *                    76
-     *                  /    \
-     *                34      90
-     *                  \    /
-     *                  40  81
-     * predecessor(76) should return 40
-     * predecessor(81) should return 76
+     * This method retrieves (but not remove) the predecessor of the data
+     * passed in.
      *
      * @param data the data to find the predecessor of
      * @return the predecessor of data. If there is no smaller data than the
@@ -497,26 +435,6 @@ public class AVL<T extends Comparable<? super T>> {
      * Finds and retrieves the k-smallest elements from the AVL in sorted order,
      * least to greatest.
      *
-     * In most cases, this method will not need to traverse the entire tree to
-     * function properly, so you should only traverse the branches of the tree
-     * necessary to get the data and only do so once. Failure to do so will
-     * result in an efficiency penalty.
-     *
-     * Ex:
-     * Given the following AVL composed of Integers
-     *                50
-     *              /    \
-     *            25      75
-     *           /  \     / \
-     *          12   37  70  80
-     *         /  \    \      \
-     *        10  15    40    85
-     *           /
-     *          13
-     * kSmallest(0) should return the list []
-     * kSmallest(5) should return the list [10, 12, 13, 15, 25].
-     * kSmallest(3) should return the list [10, 12, 13].
-     *
      * @param k the number of smallest elements to return
      * @return sorted list consisting of the k smallest elements
      * @throws java.lang.IllegalArgumentException if k < 0 or k > n, the number
@@ -559,9 +477,6 @@ public class AVL<T extends Comparable<? super T>> {
     /**
      * Returns the root of the tree.
      *
-     * For grading purposes only. You shouldn't need to use this method since
-     * you have direct access to the variable.
-     *
      * @return the root of the tree
      */
     public AVLNode<T> getRoot() {
@@ -571,9 +486,6 @@ public class AVL<T extends Comparable<? super T>> {
 
     /**
      * Returns the size of the tree.
-     *
-     * For grading purposes only. You shouldn't need to use this method since
-     * you have direct access to the variable.
      *
      * @return the size of the tree
      */
