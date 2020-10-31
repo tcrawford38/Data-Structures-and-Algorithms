@@ -1,4 +1,3 @@
-package homework10;
 import java.util.Set;
 import java.util.Map;
 import java.util.HashMap;
@@ -11,7 +10,7 @@ import java.util.HashSet;
  *
  * DO NOT EDIT THIS CLASS!!!
  *
- * @author CS 1332 TAs
+ * @author Thomas Crawford
  * @version 1.0
  */
 public class Graph<T> {
