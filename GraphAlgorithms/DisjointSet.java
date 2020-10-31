@@ -1,4 +1,3 @@
-package homework10;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
@@ -13,7 +12,7 @@ import java.util.Map;
  *
  * DO NOT EDIT THIS CLASS!!!
  *
- * @author CS 1332 TAs
+ * @author Thomas Crawford
  * @version 1.0
  */
 public class DisjointSet<T> {
