@@ -1,4 +1,3 @@
-package homework02;
 import java.util.NoSuchElementException;
 
 /**
@@ -6,12 +5,7 @@ import java.util.NoSuchElementException;
  *
  * @author Thomas crawford
  * @version 1.0
- * @userid tcrawford38
- * @GTID 903398010
  *
- * Collaborators:
- *
- * Resources:
  */
 public class DoublyLinkedList<T> {
 
