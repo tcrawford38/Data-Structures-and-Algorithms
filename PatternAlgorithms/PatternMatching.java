@@ -1,4 +1,3 @@
-package homework09;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -9,12 +8,7 @@ import java.util.Map;
  *
  * @author Thomas Crawford
  * @version 1.0
- * @userid tcrawford38
- * @GTID 903398010
  *
- * Collaborators: LIST ALL COLLABORATORS YOU WORKED WITH HERE
- *
- * Resources: LIST ALL NON-COURSE RESOURCES YOU CONSULTED HERE
  */
 public class PatternMatching {
 
