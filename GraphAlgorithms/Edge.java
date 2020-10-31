@@ -1,10 +1,9 @@
-package homework10;
 /**
  * Class representing a directed edge from u to v.
  *
  * DO NOT EDIT THIS CLASS!!
  *
- * @author CS 1332 TAs
+ * @author Thomas Crawford
  * @version 1.0
  */
 
