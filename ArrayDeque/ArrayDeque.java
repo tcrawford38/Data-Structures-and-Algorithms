@@ -6,8 +6,6 @@ import java.util.NoSuchElementException;
  *
  * @author Thomas Crawford
  * @version 1.0
- * @userid tcrawford38
- * @GTID 903398010
  *
  * Collaborators: LIST ALL COLLABORATORS YOU WORKED WITH HERE
  *
